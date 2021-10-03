@@ -1,0 +1,187 @@
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~
+$ cd desktop
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop
+$ cd Data_Class
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class
+$ mkdir Homeworks
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class
+$ cd Homeworks
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks
+$ mkdir Homework_3
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks
+$ cd Homework_3
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3
+$ git clone https://github.com/mgiandello/python-challenge.git
+Cloning into 'python-challenge'...
+warning: You appear to have cloned an empty repository.
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3
+$ mkdir PyBank
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3
+$ mkdir PyPoll
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3
+$ cd PyBank
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/PyBank
+$ touch main.py
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/PyBank
+$ cd ..
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3
+$ cd PyPoll
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/PyPoll
+$ touch main.py
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/PyPoll
+$ mkdir Resources
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/PyPoll
+$ mkdir Analysis
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/PyPoll
+$ cd ..
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3
+$ cd PyBank
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/PyBank
+$ mkdir Resources
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/PyBank
+$ mkdir Analysis
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/PyBank
+$ git push origin main
+fatal: not a git repository (or any of the parent directories): .git
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/PyBank
+$ cd ..
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3
+$ cd ..
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks
+$ cd Homework_3
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3
+$ git init -b main
+Initialized empty Git repository in C:/Users/mgian/Desktop/Data_Class/Homeworks/Homework_3/.git/
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3 (main)
+$ git add
+Nothing specified, nothing added.
+hint: Maybe you wanted to say 'git add .'?
+hint: Turn this message off by running
+hint: "git config advice.addEmptyPathspec false"
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3 (main)
+$ git clone https://github.com/mgiandello/python-challenge.git
+fatal: destination path 'python-challenge' already exists and is not an empty directory.
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3 (main)
+$ cd python-challenge
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/python-challenge (master)
+$ git status
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        PyBank/
+        PyPoll/
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/python-challenge (master)
+$ git add .
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/python-challenge (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   PyBank/main.py
+        new file:   PyPoll/main.py
+
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/python-challenge (master)
+$ git commit -m "Adding my files to GitHub to track"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'mgian@LAPTOP-3CQO91BA.(none)')
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/python-challenge (master)
+$ git push
+error: src refspec refs/heads/master does not match any
+error: failed to push some refs to 'https://github.com/mgiandello/python-challenge.git'
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/python-challenge (master)
+$ git status
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   PyBank/main.py
+        new file:   PyPoll/main.py
+
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/python-challenge (master)
+$ git commit -m "adding files to git"
+Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: unable to auto-detect email address (got 'mgian@LAPTOP-3CQO91BA.(none)')
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/python-challenge (master)
+$ user.email "michaela.giandello@gmail.com"
+bash: user.email: command not found
+
+mgian@LAPTOP-3CQO91BA MINGW64 ~/desktop/Data_Class/Homeworks/Homework_3/python-challenge (master)
+$ git config user.email "michaela.giandello@gmail.com
+> git config user.email "michaela.giandello@gmail.com"
+> user.name "Michaela Giandello"
+> git config
+>
+>
+> exit
+> $
+>
+> #exit
+>
